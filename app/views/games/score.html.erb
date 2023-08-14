@@ -1,0 +1,8 @@
+﻿<div class="container">
+  <h1>Result</h1>
+  <p><%= @result %></p>
+  <p>Time: <%= @time%></p>
+  <p>Score: <%= @score%></p>
+  <p>Total: <%= session[:@score]%></p>
+  <%= link_to "Play another time", new_path %>
+</div>
